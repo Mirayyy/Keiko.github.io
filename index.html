@@ -28,6 +28,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="particles/style.css">
 
 </head>
 
@@ -69,16 +70,23 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container">
-      <h1>Keiko Loker</h1>
-      <h2>Люблю смотреть на еблю мальчиков. </h2>
-      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
-    </div>
-  </section><!-- End Hero -->
+    <!-- particles.js container -->
+  <div id="particles-js"></div>
 
-  <main id="main">
+  <!-- scripts -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
 
-    <!-- ======= About Me Section ======= -->
+      <div class="hero-container">
+        <h1>Keiko Loker</h1>
+        <h2>Люблю смотреть на еблю мальчиков. </h2>
+        <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+      </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+      <!-- ======= About Me Section ======= -->
     <section id="about" class="about">
       <div class="container">
 
@@ -137,7 +145,7 @@
 
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-blockquote-right" style="color: #ffb459;"></i>
+                    <i class="bi bi-blockquote-right" style="color: #ffbdba;"></i>
                     <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Брошено:</strong> is simply dummy text of the printing and typesetting industry.</p>
                   </div>
@@ -145,7 +153,7 @@
 
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-blockquote-right" style="color: #ffb459;"></i>
+                    <i class="bi bi-blockquote-right" style="color: #ffbdba;"></i>
                     <span data-purecounter-start="0" data-purecounter-end="69" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Прочитано:</strong> is simply dummy text of the printing and typesetting industry.</p>
                   </div>
@@ -153,7 +161,7 @@
 
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
-                    <i class="bi bi-blockquote-right" style="color: #ffb459;"></i>
+                    <i class="bi bi-blockquote-right" style="color: #ffbdba;"></i>
                     <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Любимые:</strong> is simply dummy text of the printing and typesetting industry.</p>
                   </div>
@@ -475,6 +483,7 @@
         <div class="row bookmarks-container">
 
           <div class="col-lg-3 col-md-6 bookmarks-item filter-app">
+            <span class="advanced">Favorite</span>
             <div class="bookmarks-img"><img src="https://mangalib.me/uploads/cover/seven_days/cover/nxnvuKuSaQd9_250x350.jpg" class="img-fluid" alt=""></div>
             <div class="bookmarks-info">
               <h4>Семь дней</h4>
@@ -592,7 +601,7 @@
 
         <div class="section-title">
           <span>Контакты</span>
-          <h2>Контакты Me</h2>
+          <h2>Контакты</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
